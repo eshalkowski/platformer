@@ -18,7 +18,11 @@ public class DeleteObject : MonoBehaviour {
 
 
 	}
-
+	void OnTriggerEnter2D(Collider2D col) {
+		Destroy(this.gameObject);
+		
+		
+	}
 
 
 }
